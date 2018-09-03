@@ -19,12 +19,20 @@
     background-color: transparent;
     color: $button-pill-color;
     padding: .3rem .8rem;
-
+    margin: 0 ($space / 2) 0 0;
   }
 
   &--secondary {
     background: $button-secondary-bg;
     color: $button-secondary-color;
     border: 1px solid $button-secondary-border-color;
+  }
+
+  &--link-text {
+    background: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: underline;
+    text-transform: none;
   }
 }
